@@ -1,5 +1,4 @@
 const infoLabels = {
-    classify: 'Type a URL here to see the category keywords of context',
     summarize: 'Type a URL of an article or some content here to see the 5 sentence summarized version of the URL content',
     sentiment: 'Type here some text or paste a twit to see positiveness or negativeness of the content.'
 }
