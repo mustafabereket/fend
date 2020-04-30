@@ -1,0 +1,22 @@
+header {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px 40px;
+    background-color: $main-color;
+    text-align: center;
+    color: $main-text-color;
+    font-size: $large-font;
+    padding: 3px;
+    .nav-item {
+        cursor: pointer;
+        padding: 5px;
+        border-radius: 10px;
+        &:hover {
+            background-color: $main-color-light;
+        }
+
+    }
+    .selected {
+        background-color: $main-color-light;
+    }
+}
