@@ -1,3 +1,25 @@
+# Notes
+
+- I used the starter repo, 
+- Did not make any major changes to styling but still made sure I used some sass for styling
+    - See client/styles folder to see additional scss I added
+- I added a main.js file to initialize, grab and handle all the DOM elements to serve other files
+- I used some extra packages to bundle my scss globals, ex: 'sass-resources-loader'
+- I made sure offline loading is available using 'workbox-webpack-plugin'
+- I used jest to create some test cases to test some functions as well as one of the actual api calls
+- I made sure I store my api keys in my .env file and read from there
+- I also made sure I added .env, dist, node-modules files to git ignore file
+
+
+# Starting instructions
+
+- Switch to root folder
+- ```npm install```
+- ```npm run build-prod```
+- ```npm start```
+- ```npm run build-dev```
+
+
 # Project Instructions
 
 This repo is your starter code for the project. It is the same as the starter code we began with in lesson 2. Install and configure Webpack just as we did in the course. Feel free to refer to the course repo as you build this one, and remember to make frequent commits and to create and merge branches as necessary!

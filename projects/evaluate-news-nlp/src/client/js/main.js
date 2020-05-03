@@ -5,6 +5,7 @@ const infoLabels = {
 
 
 module.exports = (function main() {
+
     const resultPanel = document.getElementById('results');
     const infoPanel = document.getElementById('infoPanel');
     const input = document.getElementById('name');
@@ -28,10 +29,7 @@ module.exports = (function main() {
         obj.addEventListener('click', toggleNav);
     })
 
-
-
-    console.log(resultPanel)
-
     return {resultPanel, errorMessage}
+
 })()
 

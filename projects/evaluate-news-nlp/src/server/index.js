@@ -38,7 +38,7 @@ app.listen(8081, function () {
 })
 
 app.get('/test', function (req, res) {
-    res.send(mockAPIResponse)
+    res.status(200).send(mockAPIResponse)
 })
 
 app.post('/sentiment', function (req, res) {
@@ -67,7 +67,8 @@ app.post('/summarize', function (req, res) {
         'sentences_number': 3
     }, function(error, response) {
         if (error === null) {
-            delete response.text;
+            console.log(response)
+            //delete response.text;
             res.status(200).send(response);
         } else {
             console.log(error)
@@ -77,3 +78,4 @@ app.post('/summarize', function (req, res) {
         }
     });
 })
+module.exports = app;
